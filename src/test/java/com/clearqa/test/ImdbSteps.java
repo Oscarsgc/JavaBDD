@@ -57,4 +57,47 @@ public class ImdbSteps {
         System.out.println("++++++++" + imdb_url + "++++++++");
         logger.info("http query = " + imdb_url);
     }
+
+    @Given("^I get movie by year \"([^\"]*)\"$")
+    public void I_get_movie_by_year(String year) throws Throwable {
+        imdb_url = "http://www.omdbapi.com/?t=" + "&y=" + URLEncoder.encode(year, "UTF-8") + "&plot=short&r=json";
+        System.out.println("++++++++" + imdb_url + "++++++++");
+        logger.info("http query = " + imdb_url);
+    }
+
+    @Given("^I get serie by \"([^\"]*)\"$")
+    public void iGetSerieBy(String title) throws Throwable {
+        imdb_url = "http://www.omdbapi.com/?t=" + URLEncoder.encode(title, "UTF-8") + "&y=&plot=short&r=json";
+        System.out.println("++++++++" + imdb_url + "++++++++");
+        logger.info("http query = " + imdb_url);
+    }
+
+    @Given("^I get serie by \"([^\"]*)\", \"([^\"]*)\" , \"([^\"]*)\"$")
+    public void iGetSerieBy(String title, String season, String episode) throws Throwable {
+        imdb_url = "http://www.omdbapi.com/?t=" + URLEncoder.encode(title, "UTF-8") + "&Season=" + URLEncoder.encode(season, "UTF-8") + "&Episode=" + URLEncoder.encode(episode, "UTF-8");
+        System.out.println("++++++++" + imdb_url + "++++++++");
+        logger.info("http query = " + imdb_url);
+    }
+
+    @Given("^I get serie by \"([^\"]*)\", \"([^\"]*)\"$")
+    public void iGetSerieBy(String title, String season) throws Throwable {
+        imdb_url = "http://www.omdbapi.com/?t=" + URLEncoder.encode(title, "UTF-8") + "&Season=" + URLEncoder.encode(season, "UTF-8");
+        System.out.println("++++++++" + imdb_url + "++++++++");
+        logger.info("http query = " + imdb_url);
+    }
+
+    @Given("^I query serie by \"([^\"]*)\", \"([^\"]*)\"$")
+    public void iQuerySerieBy(String title, String plot) throws Throwable {
+        imdb_url = "http://www.omdbapi.com/?t=" + URLEncoder.encode(title, "UTF-8") + "&plot=" + URLEncoder.encode(plot, "UTF-8");
+        System.out.println("++++++++" + imdb_url + "++++++++");
+        logger.info("http query = " + imdb_url);
+    }
+
+    @Given("^I get movie by \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\"$")
+    public void iGetMovieByAndAnd(String title, String year, String plot) throws Throwable {
+        //http://www.omdbapi.com/?t=Lion+king&y=1994&plot=full&r=json
+        imdb_url = "http://www.omdbapi.com/?t=" + URLEncoder.encode(title, "UTF-8") + "&y=" + URLEncoder.encode(year, "UTF-8") + "&plot=" + URLEncoder.encode(plot, "UTF-8");
+        System.out.println("++++++++" + imdb_url + "++++++++");
+        logger.info("http query = " + imdb_url);
+    }
 }
