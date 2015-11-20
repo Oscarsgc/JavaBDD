@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27fe4a64-1a40-4f3f-a257-98edb7788f4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/clearqa/test/ImdbSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/com/clearqa/test/ImdbSteps.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/clearqa/test/ImdbSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/clearqa/test/ImdbSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/com/clearqa/test/imdb_rest.feature" afterPath="$PROJECT_DIR$/src/test/resources/com/clearqa/test/imdb_rest.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.clearqa.test.RunImdbTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.clearqa.test.RunImdbTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.clearqa.test.AppTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.clearqa.test.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.clearqa.test.RunImdbTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.clearqa.test.RunImdbTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/clearqa/test/imdb_rest.feature" afterPath="$PROJECT_DIR$/target/test-classes/com/clearqa/test/imdb_rest.feature" />
     </list>
     <ignored path="imdb_rest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/clearqa/test/ImdbSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="43" />
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +102,8 @@
       <file leaf-file-name="imdb_rest.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/com/clearqa/test/imdb_rest.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95364237">
-              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.82421875">
+              <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -774,56 +767,58 @@
       <workItem from="1447889372620" duration="1474000" />
       <workItem from="1447892600888" duration="121000" />
       <workItem from="1448048706273" duration="2865000" />
-      <workItem from="1448052272094" duration="323000" />
+      <workItem from="1448052272094" duration="3593000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__imdb_rest - 2015.11.20 at 16h 05m 45s.xml">
+    <history-entry file="Feature__imdb_rest - 2015.11.20 at 17h 37m 56s.xml">
       <configuration name="Feature: imdb_rest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__imdb_rest - 2015.11.20 at 16h 06m 21s.xml">
+    <history-entry file="Feature__imdb_rest - 2015.11.20 at 17h 39m 15s.xml">
       <configuration name="Feature: imdb_rest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__imdb_rest - 2015.11.20 at 16h 08m 01s.xml">
+    <history-entry file="Feature__imdb_rest - 2015.11.20 at 17h 39m 47s.xml">
       <configuration name="Feature: imdb_rest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__imdb_rest - 2015.11.20 at 16h 08m 20s.xml">
+    <history-entry file="Feature__imdb_rest - 2015.11.20 at 17h 40m 07s.xml">
       <configuration name="Feature: imdb_rest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__imdb_rest - 2015.11.20 at 16h 08m 42s.xml">
+    <history-entry file="Feature__imdb_rest - 2015.11.20 at 17h 41m 17s.xml">
       <configuration name="Feature: imdb_rest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__imdb_rest - 2015.11.20 at 16h 10m 14s.xml">
+    <history-entry file="Feature__imdb_rest - 2015.11.20 at 17h 43m 24s.xml">
       <configuration name="Feature: imdb_rest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__imdb_rest - 2015.11.20 at 16h 12m 12s.xml">
+    <history-entry file="Feature__imdb_rest - 2015.11.20 at 17h 44m 04s.xml">
       <configuration name="Feature: imdb_rest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__imdb_rest - 2015.11.20 at 16h 12m 18s.xml">
+    <history-entry file="Feature__imdb_rest - 2015.11.20 at 17h 47m 07s.xml">
       <configuration name="Feature: imdb_rest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__imdb_rest - 2015.11.20 at 16h 12m 24s.xml">
+    <history-entry file="Feature__imdb_rest - 2015.11.20 at 17h 50m 54s.xml">
       <configuration name="Feature: imdb_rest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__imdb_rest - 2015.11.20 at 16h 14m 20s.xml">
+    <history-entry file="Feature__imdb_rest - 2015.11.20 at 17h 54m 38s.xml">
       <configuration name="Feature: imdb_rest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4783000" />
+    <option name="totallyTimeSpent" value="8053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30857876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822478" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18097281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -832,6 +827,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -839,11 +835,8 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30963856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -995,18 +988,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/clearqa/test/RunImdbTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.119205296">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/clearqa/test/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/clearqa/test/RunImdbTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17578125">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1022,7 +1015,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/clearqa/test/ImdbSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="43" />
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1031,8 +1024,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/com/clearqa/test/imdb_rest.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95364237">
-          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.82421875">
+          <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
           <folding />
         </state>
       </provider>
