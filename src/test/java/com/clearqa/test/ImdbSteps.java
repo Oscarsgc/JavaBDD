@@ -18,12 +18,20 @@ public class ImdbSteps {
 	private String imdb_url;
 	private JSONObject json_response;
 
-	@Given("^I query movie by \"(.*)?\"$")
+    @Given("^I query movie by \"([^\"]*)\"$")
 	public void I_query_movie_by_title(String key) throws UnsupportedEncodingException {
 		imdb_url = "http://www.omdbapi.com/?t=" + URLEncoder.encode(key, "UTF-8") + "&y=&plot=short&r=json";
 		System.out.println("++++++++"+imdb_url+"++++++++");
 		logger.info("http query = " + imdb_url);
 	}
+
+    @Given("^I get movie by \"([^\"]*)\"$")
+    public void I_query_movie_by_id(String key) throws UnsupportedEncodingException {
+        imdb_url = "http://www.omdbapi.com/?i=" + URLEncoder.encode(key, "UTF-8") + "&plot=short&r=json";
+        System.out.println("++++++++"+imdb_url+"++++++++");
+        logger.info("http query = " + imdb_url);
+    }
+
 
 	@When("^I make the rest call$")
 	public void I_make_the_rest_call() throws IOException, JSONException {

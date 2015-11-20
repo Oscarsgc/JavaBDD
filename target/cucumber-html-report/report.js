@@ -44,25 +44,25 @@ formatter.match({
   "location": "ImdbSteps.I_query_movie_by_title(String)"
 });
 formatter.result({
-  "duration": 114736944,
+  "duration": 81665819,
   "status": "passed"
 });
 formatter.match({
   "location": "ImdbSteps.I_make_the_rest_call()"
 });
 formatter.result({
-  "duration": 655849310,
+  "duration": 661157411,
   "status": "passed"
 });
 formatter.match({
   "location": "ImdbSteps.response_should_contain_JSON(String)"
 });
 formatter.result({
-  "duration": 4098607,
+  "duration": 5060112,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 24,
+  "line": 23,
   "name": "Get many movies by title",
   "description": "",
   "id": "imdb-rest-api-gets;get-many-movies-by-title;no-special-characters-in-movie-titles;2",
@@ -70,7 +70,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "I query movie by \"Finding Nemo\"",
   "matchedColumns": [
     0
@@ -78,12 +78,12 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "I make the rest call",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "response should contain \"{\"Genre\":\"Animation, Adventure, Comedy\"}\"",
   "matchedColumns": [
     1
@@ -100,14 +100,14 @@ formatter.match({
   "location": "ImdbSteps.I_query_movie_by_title(String)"
 });
 formatter.result({
-  "duration": 160898,
+  "duration": 157673,
   "status": "passed"
 });
 formatter.match({
   "location": "ImdbSteps.I_make_the_rest_call()"
 });
 formatter.result({
-  "duration": 104026616,
+  "duration": 97730451,
   "status": "passed"
 });
 formatter.match({
@@ -120,11 +120,11 @@ formatter.match({
   "location": "ImdbSteps.response_should_contain(String)"
 });
 formatter.result({
-  "duration": 179739,
+  "duration": 283317,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 25,
+  "line": 24,
   "name": "Get many movies by title",
   "description": "",
   "id": "imdb-rest-api-gets;get-many-movies-by-title;no-special-characters-in-movie-titles;3",
@@ -132,7 +132,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "I query movie by \"Inception\"",
   "matchedColumns": [
     0
@@ -140,12 +140,12 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "I make the rest call",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "response should contain \"{\"Genre\":\"Action, Mystery, Sci-Fi\"}\"",
   "matchedColumns": [
     1
@@ -162,14 +162,14 @@ formatter.match({
   "location": "ImdbSteps.I_query_movie_by_title(String)"
 });
 formatter.result({
-  "duration": 119132,
+  "duration": 144051,
   "status": "passed"
 });
 formatter.match({
   "location": "ImdbSteps.I_make_the_rest_call()"
 });
 formatter.result({
-  "duration": 314612885,
+  "duration": 94278496,
   "status": "passed"
 });
 formatter.match({
@@ -182,11 +182,11 @@ formatter.match({
   "location": "ImdbSteps.response_should_contain(String)"
 });
 formatter.result({
-  "duration": 173377,
+  "duration": 190430,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 29,
+  "line": 28,
   "name": "Get many movies by title",
   "description": "",
   "id": "imdb-rest-api-gets;get-many-movies-by-title;special-characters-in-movie-titles;2",
@@ -194,7 +194,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "I query movie by \"WALL�E\"",
   "matchedColumns": [
     0
@@ -202,12 +202,12 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "I make the rest call",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "response should contain \"{\"Genre\":\"Animation, Adventure, Family\"}\"",
   "matchedColumns": [
     1
@@ -224,14 +224,14 @@ formatter.match({
   "location": "ImdbSteps.I_query_movie_by_title(String)"
 });
 formatter.result({
-  "duration": 287171,
+  "duration": 217657,
   "status": "passed"
 });
 formatter.match({
   "location": "ImdbSteps.I_make_the_rest_call()"
 });
 formatter.result({
-  "duration": 106842149,
+  "duration": 94422454,
   "status": "passed"
 });
 formatter.match({
@@ -244,11 +244,11 @@ formatter.match({
   "location": "ImdbSteps.response_should_contain(String)"
 });
 formatter.result({
-  "duration": 193641,
+  "duration": 167683,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 30,
+  "line": 29,
   "name": "Get many movies by title",
   "description": "",
   "id": "imdb-rest-api-gets;get-many-movies-by-title;special-characters-in-movie-titles;3",
@@ -256,7 +256,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "I query movie by \"8�\"",
   "matchedColumns": [
     0
@@ -264,12 +264,12 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "I make the rest call",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "response should contain \"{\"Genre\": \"Mystery, Sci-Fi, Thriller\"}\"",
   "matchedColumns": [
     1
@@ -286,14 +286,14 @@ formatter.match({
   "location": "ImdbSteps.I_query_movie_by_title(String)"
 });
 formatter.result({
-  "duration": 130703,
+  "duration": 177592,
   "status": "passed"
 });
 formatter.match({
   "location": "ImdbSteps.I_make_the_rest_call()"
 });
 formatter.result({
-  "duration": 105579236,
+  "duration": 121240265,
   "status": "passed"
 });
 formatter.match({
@@ -306,7 +306,62 @@ formatter.match({
   "location": "ImdbSteps.response_should_contain(String)"
 });
 formatter.result({
-  "duration": 624757,
+  "duration": 198994,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 32,
+  "name": "Get movie by id",
+  "description": "",
+  "id": "imdb-rest-api-gets;get-movie-by-id",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 33,
+  "name": "I get movie by \"tt0154789\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 34,
+  "name": "I make the rest call",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 35,
+  "name": "response should contain:",
+  "keyword": "Then ",
+  "doc_string": {
+    "content_type": "",
+    "line": 36,
+    "value": "{\r\n\"Title\":\"Lord of the Rings\",\r\n\"Genre\":\"Adventure, Fantasy\",\r\n\"Year\":\"1990\"\r\n}"
+  }
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "tt0154789",
+      "offset": 16
+    }
+  ],
+  "location": "ImdbSteps.I_query_movie_by_id(String)"
+});
+formatter.result({
+  "duration": 223657,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImdbSteps.I_make_the_rest_call()"
+});
+formatter.result({
+  "duration": 99752355,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImdbSteps.response_should_contain_JSON(String)"
+});
+formatter.result({
+  "duration": 178805,
   "status": "passed"
 });
 });
